@@ -1,0 +1,557 @@
+
+
+/* color palette:#116530, #E8E8CC, #0B4619 */
+
+
+body {
+font-family: Helvetica, sans-serif;
+}
+
+p {
+text-align: left;
+
+}
+
+a {
+color: white;
+text-decoration: none;
+}
+
+a:hover{
+color: blue;
+}
+
+.spec-link {
+color: #0B4619;
+}
+.spec-link:hover{
+color: blue;
+}
+
+h1 {
+  font-family: 'Imperial Script', cursive;
+  font-size: 3rem;
+  line-height: 1.5;
+  text-align: left;
+  border-bottom: solid;
+  border-width: 1px;
+}
+
+h2 {
+  font-family: 'Imperial Script', cursive;
+  font-size: 2rem;
+  line-height: 1.5;
+  text-align: left;
+  border-bottom: solid;
+  border-width: 1px;
+}
+
+h3 {
+  font-family: 'Imperial Script', cursive;
+  font-size: 1.5rem;
+  text-align: left;
+}
+
+
+/* Welcome section */
+
+.welcome{
+  padding-left: 5%;
+  padding-right: 5%;
+  margin-top: 10px;
+  margin-bottom: 30px;
+}
+
+
+/* Buttons */
+
+.button1{
+  background-color: #116530;
+  border: none;
+  color: #E8E8CC;
+  border-radius: 17px;
+  height: 40px;
+  width: 160px;
+  text-align:left;
+  }
+
+.button2{
+  background-color: #E8E8CC;
+  border: solid 1px;
+  border-color: #116530;
+  color: #0B4619;
+  border-radius: 17px;
+  height: 40px;
+  width: 160px;
+  text-align:center;
+}
+
+.button1:hover{
+  background-color: #0B4619;
+}
+
+.button2:hover{
+  background-color: grey;
+  border-color: grey;
+  color: white;
+}
+
+
+
+
+/*Section styles*/
+
+.dark-green-section  {
+  background-color: #0B4619;
+    color: white;
+    border-color: #0B4619;
+}
+
+.light-green-section {
+  background-color: #116530;
+    color: white;
+    border-color: #E8E8CC;
+}
+
+.grey-section {
+  background-color: #E8E8CC;
+  color: #0B4619;
+  border-color: #0B4619;
+  /* padding-bottom: 3%; */
+}
+
+/* Borders */
+
+.grey-border{
+  border: solid 1px;
+  border-radius: 25px;
+  border-color: #E8E8CC;
+}
+
+.green-border{
+  border: solid 1px;
+  border-radius: 25px;
+  border-color: #0B4619;
+}
+
+/* Background images */
+.wrap {
+  overflow: hidden;
+    position: relative;
+  }
+  .wrap-content {
+    position: relative;
+  }
+
+.background-img-1 {
+  opacity: 0.7;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+.background-img-2 {
+  opacity: 0.9;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+}
+
+.background-img-3 {
+  opacity: 0.2;
+    position: absolute;
+    width: 100%;
+    height: auto;
+}
+
+/* Navigation Bar */
+
+.navigation {
+  background-color: #116530;
+  opacity: 0.9;
+  position: fixed;
+  z-index: 1;
+}
+
+.front-image {
+  width: 100%;
+  height: auto;
+  opacity: 0.9;
+  padding-top: 3%;
+}
+
+
+
+.nav-link {
+  font-size: 1.2rem;
+  padding: 0 5px;
+  text-align: right;
+}
+
+.navbar-brand {
+  font-family: 'Imperial Script', cursive;
+  font-size: 2rem;
+  text-align: left;
+}
+
+.navbar-image {
+  border-radius: 90%;
+  background-color: white;
+  opacity: 0.7;
+}
+
+
+.english{
+  padding-top: 10px;
+display: flex;
+justify-content: flex-end;
+font-style: italic;
+font-size: 13px;
+}
+
+.english-flag {
+  width: 30px;
+  height: auto;
+}
+
+
+/* Opening pictures */
+
+.opening-box {
+  padding: 3% 2%;
+
+}
+
+.opening-text{
+  font-family: 'Imperial Script', cursive;
+  color: #0B4619;
+  text-align: center;
+  font-size: 2rem;
+  background-color: #E8E8CC;
+  border-bottom-right-radius: 25px;
+  border-bottom-left-radius: 25px;
+}
+
+.opening-img{
+width: 100%;
+height: auto;
+border-top-right-radius: 25px;
+border-top-left-radius: 25px;
+}
+
+/* Payment blokk */
+
+.payment-box{
+margin: 15px 0;
+}
+
+.payment-img-1 {
+width: 60%;
+height: auto;
+border-radius: 25px;
+margin-left: 20%;
+}
+.payment-img-2 {
+width: 50%;
+height: auto;
+border-radius: 25px;
+margin-left: 20%;
+}
+
+
+
+/* Info blokk  */
+
+.info-box{
+margin: 5px;
+width: 320px;
+height: auto;
+}
+
+/* Facebook blokk */
+
+.facebook-page{
+padding: 5% 2%;
+}
+
+/* Mandatory blokk  */
+
+.mandatory{
+  padding-top: 3%;
+}
+
+.turisztika{
+filter: grayscale(90%);
+border-radius: 25px;
+height: auto;
+width: 90%;
+}
+.turisztika:hover{
+filter: grayscale(0%);
+width: 100%;
+}
+
+.szechenyi{
+filter: grayscale(90%);
+border-radius: 25px;
+height: auto;
+width: 100%;
+
+}
+
+.szechenyi:hover{
+filter: grayscale(0%);
+width: 110%;
+}
+
+
+/* Balaton section */
+
+.balaton-box{
+  padding: 1% 1%;
+}
+
+.balaton-img {
+  filter: grayscale(90%);
+  height: auto;
+  width: 100%;
+}
+
+.balaton-img:hover {
+filter: grayscale(0%);
+height: auto;
+width: 110%;
+}
+
+
+/*Etlap Itallap section */
+
+.etlap-body{
+  border: solid 1px;
+  border-color: #116530;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  padding-left: 10px;
+  padding-right: 5px;
+}
+
+/* because of the bottoms */
+
+.etlap-body-2{
+  position: relative;
+  height: 50px;
+
+}
+.etlap-btn{
+  text-align: center;
+  margin: 0;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   -ms-transform: translate(-50%, -50%);
+   transform: translate(-50%, -50%);
+  }
+
+
+/* Partnereink */
+
+.partner-logo {
+  width: 100%;
+  height: auto;
+}
+
+.partner-image {
+  width: 100%;
+  height: auto;
+}
+
+.partner-box {
+  padding-top: 3%;
+  padding-bottom: 3%;
+  border-bottom: solid 1px;
+}
+
+
+/* Szallasfoglalas section */
+
+/* Style the tab */
+/* color palette:#116530, #E8E8CC, #0B4619 */
+
+.tab {
+  overflow: hidden;
+  background-color: #E8E8CC;
+  border-bottom: solid 1px;
+  border-color: #116530;
+}
+
+/* Style the buttons that are used to open the tab content */
+.tab button {
+  float: left;
+  border-width: 1px;
+  border-top-right-radius: 15px;
+    border-top-left-radius: 15px;
+  cursor: pointer;
+  transition: 0.3s;
+  width: 200px;
+  height: 60px;
+}
+
+/* Change background color of buttons on hover */
+.tab button:hover {
+  background-color: #116530;
+    color: white;
+}
+
+/* Create an active/current tablink class */
+.tab button.active {
+  background-color:  #0B4619;
+  color: white;
+}
+
+
+.reservation {
+  padding-bottom: 10%;
+  padding-top: 10%;
+}
+
+/* Szallasinfok section */
+
+.list-box{
+margin: 20px;
+width: 350px;
+background-color: #E8E8CC;
+opacity: 0.9;
+}
+
+.list-items{
+    display:flex;
+    padding-bottom: 2%;
+    font-size: 12px;
+}
+
+.list-icons{
+  padding-top: 10px;
+  padding-right: 5px;
+  width: auto;
+}
+
+/* A fecbook icon valamiért kilógott a sorból */
+
+.fb-list-icon{
+  padding-top: 5px;
+  padding-right: 5px;
+  width: auto;
+}
+
+.list-text{
+  padding-top: 2%;
+  margin-bottom: 0;
+}
+
+.list-price{
+padding-top: 2%;
+margin-bottom: 0;
+margin-left: auto;
+margin-right: 0;
+}
+
+.details {
+  padding-top: 5%;
+  font-style: italic;
+  font-size: 0.9rem;
+}
+
+
+/* Rendezvények section */
+
+.event-card {
+margin-top: 20px;
+margin-bottom: 30px;
+}
+
+.event-body{
+  border: solid 1px;
+  border-bottom-left-radius: 25px;
+  border-bottom-right-radius: 25px;
+  height: 150px;
+  font-size: 14px;
+  text-align: center;
+  padding-left: 10px;
+    padding-right: 5px;
+}
+
+
+/* Galeria section */
+
+
+.galery-body{
+  margin-top:30px;
+  margin-bottom: 30px;
+}
+
+.galery-img{
+filter: grayscale(90%);
+width: 90%;
+height: auto;
+border-radius: 25px;
+}
+
+.galery-img:hover{
+filter: grayscale(0%);
+width: 100%;
+}
+
+
+/* Kapcsolat oldal */
+.kapcsolat{
+  padding-top: 3%;
+  padding-bottom: 3%;
+}
+/* google maps */
+
+.h_iframe iframe {
+    width:100%;
+    height:600px;
+}
+
+
+/* Footer section */
+
+.footer-u{
+padding: 1% 1%;
+text-align: left;
+}
+
+.footer-icon{
+  text-align: center;
+  font-size: 3rem;
+}
+
+.footer-d {
+  padding-top: 1%;
+  text-align: center;
+  font-style: italic;
+  font-size: 1rem;
+  }
+
+
+/* Responsive */
+  @media (max-width: 950px)
+  {
+    .navbar-brand {
+      font-size: 1.5rem;
+      text-align: left;
+    }
+
+    .navbar-image {
+      width: 2rem;
+      height: 2rem;
+    }
+
+    .navbar-collapse {
+   background: #116530;
+ }
+
+.front-image {
+  padding-top: 7%;
+}
+  }
